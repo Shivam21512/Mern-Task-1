@@ -1,0 +1,70 @@
+.logo-square {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border: 3px solid #8B6CB6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.logo-h {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #22A7F2;
+  font-style: italic;
+}
+.brand-main { font-weight: 700; color: #22A7F2; margin-right: 2px; font-size: 1.35em; }
+.brand-highlight { font-weight: 700; color: #8B6CB6; font-size: 1.35em; }
+.brand-subtitle { font-size: 0.85em; color: #939CA3; font-style: italic; }
+.nav-search {
+  border-radius: 9px 0 0 9px;
+  background: #F6F7FA;
+  border: 1px solid #E5E8EC;
+}
+.btn-search {
+  background: #8B6CB6;
+  color: #fff;
+  border-radius: 0 9px 9px 0;
+}
+.nav-signin {
+  border-color: #8B6CB6;
+  color: #8B6CB6;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 4px 22px;
+  transition: background 0.2s;
+}
+.nav-signin:hover {
+  background: #8B6CB6;
+  color: #fff;
+}
+.custom-explore-menu {
+  border: 2px dashed #8B6CB6;
+  min-width: 230px;
+  box-shadow: 0 3px 28px 0 #bdb0d533;
+  background: #fff;
+  margin-top: 6px !important;
+}
+.custom-explore-menu .dropdown-item {
+  font-size: 1.05em;
+  font-weight: 500;
+  color: #7067A9;
+  padding: 10px 20px;
+  border-bottom: 1px dashed #cbc1e0;
+  background: transparent;
+  transition: background 0.12s, color 0.12s;
+}
+.custom-explore-menu .dropdown-item:last-child {
+  border-bottom: none;
+}
+.custom-explore-menu .dropdown-item:hover {
+  background: #f7fafd;
+  color: #8B6CB6;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav .dropdown:hover .custom-explore-menu {
+    display: block;
+  }
+}

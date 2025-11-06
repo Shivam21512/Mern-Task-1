@@ -1,0 +1,40 @@
+.add-your-own-section {
+  background: #F6FBFF;
+  padding-top: 44px;
+  padding-bottom: 18px;
+}
+
+.add-own-card {
+  border-radius: 13px;
+  border: 1.2px solid #DAEAF4;
+  background: #fff;
+  box-shadow: 0 2px 18px #eaf5fc46;
+}
+
+.add-own-icon {
+  margin-top: 2px;
+}
+
+.add-own-desc {
+  color: #454651;
+  font-size: 1.03em;
+}
+
+.add-own-btn {
+  border-radius: 8px;
+  border-color: #8B6CB6;
+  color: #8B6CB6;
+  font-weight: 500;
+  padding: 5px 22px;
+  font-size: 1.02em;
+}
+
+@media (max-width: 600px) {
+  .add-your-own-section {
+    padding-top: 18px;
+    padding-bottom: 10px;
+  }
+  .add-own-card {
+    padding: 1.1rem 0.7rem;
+  }
+}

@@ -1,0 +1,79 @@
+.add-listing-bg {
+  background: #F8FAFC;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 32px;
+}
+.add-listing-container {
+  margin: 0 auto;
+  margin-top: 24px;
+  border-radius: 18px;
+  max-width: 600px;
+  min-width: 320px;
+  background: #fff;
+  box-shadow: 0 4px 30px #d3e6ef21;
+  border: none;
+}
+.add-listing-title {
+  font-size: 1.32em;
+  color: #27282a;
+}
+.add-card {
+  border-radius: 11px;
+  border: 2px solid #EAEAEA;
+  background: #FFF;
+  font-size: 1.06em;
+  transition: border-color 0.18s, background 0.19s, color 0.14s;
+}
+.add-card-people    { border-color: #8B6CB6; color: #8B6CB6; background: #fff; }
+.add-card-place     { border-color: #A2C451; color: #728C15; background: #fff; }
+.add-card-product   { border-color: #E06244; color: #B94A36; background: #fff; }
+.add-card-program   { border-color: #46A3F7; color: #1578CF; background: #fff; }
+.add-card-title {
+  font-size: 1.09em;
+}
+.add-card-desc {
+  color: #56587c;
+  font-size: 0.97em;
+  margin-top: 3px;
+}
+.add-card-title, .add-card .lucide {
+  transition: color 0.18s;
+}
+.add-card-people:hover {
+  background: #8B6CB6;
+  color: #fff;
+  border-color: #8B6CB6;
+}
+.add-card-place:hover {
+  background: #A2C451;
+  color: #fff;
+  border-color: #A2C451;
+}
+.add-card-product:hover {
+  background: #E06244;
+  color: #fff;
+  border-color: #E06244;
+}
+.add-card-program:hover {
+  background: #46A3F7;
+  color: #fff;
+  border-color: #46A3F7;
+}
+.add-card:hover .add-card-desc,
+.add-card:hover .add-card-title,
+.add-card:hover .lucide {
+  color: #fff !important;
+  fill: #fff !important;
+}
+.add-card:hover svg {
+  stroke: #fff !important;
+}
+@media (max-width: 700px) {
+  .add-listing-container { padding: 0.6em 0.3em; }
+}
+@media (max-width: 500px) {
+  .add-listing-container { min-width: 0; }
+}

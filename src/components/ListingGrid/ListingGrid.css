@@ -1,0 +1,56 @@
+.grid-card {
+  border-radius: 14px;
+  border: 1.5px solid #E5E8EC;
+  padding: 22px 22px 23px 22px;
+  background: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.grid-card-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.card-title {
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: #20212C;
+  margin-bottom: 8px;
+}
+.card-text {
+  font-size: 1.01rem;
+  color: #7B7B93;
+  margin-bottom: 18px;
+}
+.btn-outline-primary {
+  border-radius: 8px;
+  border-width: 2px;
+  font-weight: 500;
+}
+
+.card-people .btn-outline-primary {
+  border-color: #8B6CB6;
+  color: #8B6CB6;
+}
+.card-place .btn-outline-primary {
+  border-color: #A2C451;
+  color: #789900;
+}
+.card-product .btn-outline-primary {
+  border-color: #E06244;
+  color: #B04020;
+}
+.card-program .btn-outline-primary {
+  border-color: #46A3F7;
+  color: #1578CF;
+}
+
+@media (max-width: 767px) {
+  .listing-grid .row > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 0.7rem;
+  }
+  .grid-card {
+    padding: 14px 11px 18px 14px;
+  }
+}

@@ -1,0 +1,81 @@
+.hero-banner-section {
+  background: #F7F4FA;
+  padding-top: 56px;
+  padding-bottom: 36px;
+}
+
+.hero-bg {
+  border-radius: 18px;
+  background: #F7F4FA;
+  padding: 0px;
+}
+
+.hero-left {
+  padding-left: 48px;
+  padding-right: 12px;
+}
+
+.hero-title {
+  font-size: 2.3rem;
+  margin-bottom: 17px;
+  font-family: 'Inter', sans-serif;
+}
+
+.color-hobby {
+  color: #22A7F2;
+  font-weight: bold;
+}
+
+.color-passion {
+  color: #8B6CB6;
+  font-weight: bold;
+}
+
+.hero-desc {
+  color: #232529;
+  font-size: 1.09em;
+  line-height: 1.52;
+  margin-bottom: 13px;
+}
+
+.hero-bottom-text {
+  margin-bottom: 19px;
+}
+
+.hero-image {
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 410px;
+  max-width: 95%;
+  min-width: 150px;
+}
+
+.auth-panel {
+  background: #F8F6FA;
+  border-radius: 16px;
+  box-shadow: 0 2px 18px #e3d3ff36;
+  padding: 36px 22px;
+  width: 100%;
+  max-width: 380px;
+}
+
+@media (max-width: 991px) {
+  .hero-left {
+    padding-left: 0;
+  }
+  .hero-title {
+    font-size: 1.2rem;
+  }
+  .hero-image {
+    width: 90vw;
+    max-width: 320px;
+  }
+  .auth-panel {
+    margin: 0 auto;
+    max-width: 99vw;
+    padding: 18px 4px;
+  }
+  .container.hero-bg {
+    padding: 0;
+  }
+}

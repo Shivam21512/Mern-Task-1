@@ -1,0 +1,51 @@
+.auth-tabs-panel {
+  background: #fff;
+  padding: 32px 30px 28px 30px;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px #e3d3ff36;
+  max-width: 410px;
+}
+.auth-tabs-header {
+  display: flex;
+  gap: 36px;
+  border-bottom: 1.5px solid #e3e2eb;
+  margin-bottom: 24px;
+}
+.auth-tab-btn {
+  background: none;
+  border: none;
+  font-size: 1.1em;
+  color: #BBB8C6;
+  padding-bottom: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: color 0.2s, border-bottom 0.2s;
+  border-bottom: 3px solid transparent;
+}
+.auth-tab-btn.active {
+  color: #8B6CB6;
+  border-bottom: 3px solid #8B6CB6;
+}
+.form-control {
+  border-radius: 8px;
+  border: 1.4px solid #ECE6F6;
+  font-size: 1em;
+  background: #F9F7FB;
+  margin-bottom: 6px;
+}
+.auth-btn.social-btn {
+  background: #F9F6FB;
+  border: 1.5px solid #8B6CB6;
+  color: #262242;
+  font-weight: 500;
+  border-radius: 8px;
+  margin-bottom: 13px !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.divider { /* ... unchanged ... */ }
+.continue-btn { /* ... unchanged ... */ }
+.forgot-link, .small-text { /* ... unchanged ... */ }
+
